@@ -11,4 +11,4 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(quote => {
             quoteElement.textContent = `"${quote.quote}"`;
         })
-})
+});
